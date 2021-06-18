@@ -12,15 +12,15 @@ MACRO dpll
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 787.150 0.000 787.430 4.000 ;
+        RECT 629.830 0.000 630.110 4.000 ;
     END
   END clockp[0]
   PIN clockp[1]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
     PORT
-      LAYER met2 ;
-        RECT 449.970 596.000 450.250 600.000 ;
+      LAYER met3 ;
+        RECT 896.000 299.920 900.000 300.520 ;
     END
   END clockp[1]
   PIN div[0]
@@ -28,15 +28,15 @@ MACRO dpll
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 0.000 149.640 4.000 150.240 ;
+        RECT 896.000 100.000 900.000 100.600 ;
     END
   END div[0]
   PIN div[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 0.000 449.520 4.000 450.120 ;
+      LAYER met2 ;
+        RECT 809.690 0.000 809.970 4.000 ;
     END
   END div[1]
   PIN div[2]
@@ -44,7 +44,7 @@ MACRO dpll
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 896.000 100.000 900.000 100.600 ;
+        RECT 896.000 499.840 900.000 500.440 ;
     END
   END div[2]
   PIN div[3]
@@ -52,15 +52,15 @@ MACRO dpll
     USE SIGNAL ;
     PORT
       LAYER met3 ;
-        RECT 896.000 299.920 900.000 300.520 ;
+        RECT 0.000 299.920 4.000 300.520 ;
     END
   END div[3]
   PIN div[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
     PORT
-      LAYER met3 ;
-        RECT 896.000 499.840 900.000 500.440 ;
+      LAYER met2 ;
+        RECT 449.970 596.000 450.250 600.000 ;
     END
   END div[4]
   PIN enable
@@ -68,7 +68,7 @@ MACRO dpll
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 337.270 0.000 337.550 4.000 ;
+        RECT 269.650 0.000 269.930 4.000 ;
     END
   END enable
   PIN osc
@@ -76,7 +76,7 @@ MACRO dpll
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 562.210 0.000 562.490 4.000 ;
+        RECT 449.510 0.000 449.790 4.000 ;
     END
   END osc
   PIN resetb
@@ -84,7 +84,7 @@ MACRO dpll
     USE SIGNAL ;
     PORT
       LAYER met2 ;
-        RECT 112.330 0.000 112.610 4.000 ;
+        RECT 89.790 0.000 90.070 4.000 ;
     END
   END resetb
   PIN vccd1
@@ -477,32 +477,25 @@ MACRO dpll
       LAYER met1 ;
         RECT 5.520 10.640 894.240 587.760 ;
       LAYER met2 ;
-        RECT 6.990 595.720 449.690 596.000 ;
-        RECT 450.530 595.720 890.460 596.000 ;
-        RECT 6.990 4.280 890.460 595.720 ;
-        RECT 6.990 4.000 112.050 4.280 ;
-        RECT 112.890 4.000 336.990 4.280 ;
-        RECT 337.830 4.000 561.930 4.280 ;
-        RECT 562.770 4.000 786.870 4.280 ;
-        RECT 787.710 4.000 890.460 4.280 ;
+        RECT 7.450 595.720 449.690 596.000 ;
+        RECT 450.530 595.720 890.930 596.000 ;
+        RECT 7.450 4.280 890.930 595.720 ;
+        RECT 7.450 4.000 89.510 4.280 ;
+        RECT 90.350 4.000 269.370 4.280 ;
+        RECT 270.210 4.000 449.230 4.280 ;
+        RECT 450.070 4.000 629.550 4.280 ;
+        RECT 630.390 4.000 809.410 4.280 ;
+        RECT 810.250 4.000 890.930 4.280 ;
       LAYER met3 ;
         RECT 4.000 500.840 896.000 587.685 ;
         RECT 4.000 499.440 895.600 500.840 ;
-        RECT 4.000 450.520 896.000 499.440 ;
-        RECT 4.400 449.120 896.000 450.520 ;
-        RECT 4.000 300.920 896.000 449.120 ;
-        RECT 4.000 299.520 895.600 300.920 ;
-        RECT 4.000 150.640 896.000 299.520 ;
-        RECT 4.400 149.240 896.000 150.640 ;
-        RECT 4.000 101.000 896.000 149.240 ;
+        RECT 4.000 300.920 896.000 499.440 ;
+        RECT 4.400 299.520 895.600 300.920 ;
+        RECT 4.000 101.000 896.000 299.520 ;
         RECT 4.000 99.600 895.600 101.000 ;
         RECT 4.000 10.715 896.000 99.600 ;
       LAYER met4 ;
-        RECT 475.015 213.695 481.440 245.985 ;
-        RECT 483.840 213.695 484.740 245.985 ;
-        RECT 487.140 213.695 488.040 245.985 ;
-        RECT 490.440 213.695 491.340 245.985 ;
-        RECT 493.740 213.695 497.425 245.985 ;
+        RECT 507.215 199.415 550.785 243.265 ;
   END
 END dpll
 END LIBRARY
