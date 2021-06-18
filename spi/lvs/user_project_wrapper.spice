@@ -1,102 +1,12 @@
 * NGSPICE file created from user_project_wrapper.ext - technology: sky130A
 
-* Black-box entry subcircuit for user_proj_example abstract view
-.subckt user_proj_example io_in[0] io_in[10] io_in[11] io_in[12] io_in[13] io_in[14]
-+ io_in[15] io_in[16] io_in[17] io_in[18] io_in[19] io_in[1] io_in[20] io_in[21] io_in[22]
-+ io_in[23] io_in[24] io_in[25] io_in[26] io_in[27] io_in[28] io_in[29] io_in[2] io_in[30]
-+ io_in[31] io_in[32] io_in[33] io_in[34] io_in[35] io_in[36] io_in[37] io_in[3] io_in[4]
-+ io_in[5] io_in[6] io_in[7] io_in[8] io_in[9] io_oeb[0] io_oeb[10] io_oeb[11] io_oeb[12]
-+ io_oeb[13] io_oeb[14] io_oeb[15] io_oeb[16] io_oeb[17] io_oeb[18] io_oeb[19] io_oeb[1]
-+ io_oeb[20] io_oeb[21] io_oeb[22] io_oeb[23] io_oeb[24] io_oeb[25] io_oeb[26] io_oeb[27]
-+ io_oeb[28] io_oeb[29] io_oeb[2] io_oeb[30] io_oeb[31] io_oeb[32] io_oeb[33] io_oeb[34]
-+ io_oeb[35] io_oeb[36] io_oeb[37] io_oeb[3] io_oeb[4] io_oeb[5] io_oeb[6] io_oeb[7]
-+ io_oeb[8] io_oeb[9] io_out[0] io_out[10] io_out[11] io_out[12] io_out[13] io_out[14]
-+ io_out[15] io_out[16] io_out[17] io_out[18] io_out[19] io_out[1] io_out[20] io_out[21]
-+ io_out[22] io_out[23] io_out[24] io_out[25] io_out[26] io_out[27] io_out[28] io_out[29]
-+ io_out[2] io_out[30] io_out[31] io_out[32] io_out[33] io_out[34] io_out[35] io_out[36]
-+ io_out[37] io_out[3] io_out[4] io_out[5] io_out[6] io_out[7] io_out[8] io_out[9]
-+ irq[0] irq[1] irq[2] la_data_in[0] la_data_in[100] la_data_in[101] la_data_in[102]
-+ la_data_in[103] la_data_in[104] la_data_in[105] la_data_in[106] la_data_in[107]
-+ la_data_in[108] la_data_in[109] la_data_in[10] la_data_in[110] la_data_in[111] la_data_in[112]
-+ la_data_in[113] la_data_in[114] la_data_in[115] la_data_in[116] la_data_in[117]
-+ la_data_in[118] la_data_in[119] la_data_in[11] la_data_in[120] la_data_in[121] la_data_in[122]
-+ la_data_in[123] la_data_in[124] la_data_in[125] la_data_in[126] la_data_in[127]
-+ la_data_in[12] la_data_in[13] la_data_in[14] la_data_in[15] la_data_in[16] la_data_in[17]
-+ la_data_in[18] la_data_in[19] la_data_in[1] la_data_in[20] la_data_in[21] la_data_in[22]
-+ la_data_in[23] la_data_in[24] la_data_in[25] la_data_in[26] la_data_in[27] la_data_in[28]
-+ la_data_in[29] la_data_in[2] la_data_in[30] la_data_in[31] la_data_in[32] la_data_in[33]
-+ la_data_in[34] la_data_in[35] la_data_in[36] la_data_in[37] la_data_in[38] la_data_in[39]
-+ la_data_in[3] la_data_in[40] la_data_in[41] la_data_in[42] la_data_in[43] la_data_in[44]
-+ la_data_in[45] la_data_in[46] la_data_in[47] la_data_in[48] la_data_in[49] la_data_in[4]
-+ la_data_in[50] la_data_in[51] la_data_in[52] la_data_in[53] la_data_in[54] la_data_in[55]
-+ la_data_in[56] la_data_in[57] la_data_in[58] la_data_in[59] la_data_in[5] la_data_in[60]
-+ la_data_in[61] la_data_in[62] la_data_in[63] la_data_in[64] la_data_in[65] la_data_in[66]
-+ la_data_in[67] la_data_in[68] la_data_in[69] la_data_in[6] la_data_in[70] la_data_in[71]
-+ la_data_in[72] la_data_in[73] la_data_in[74] la_data_in[75] la_data_in[76] la_data_in[77]
-+ la_data_in[78] la_data_in[79] la_data_in[7] la_data_in[80] la_data_in[81] la_data_in[82]
-+ la_data_in[83] la_data_in[84] la_data_in[85] la_data_in[86] la_data_in[87] la_data_in[88]
-+ la_data_in[89] la_data_in[8] la_data_in[90] la_data_in[91] la_data_in[92] la_data_in[93]
-+ la_data_in[94] la_data_in[95] la_data_in[96] la_data_in[97] la_data_in[98] la_data_in[99]
-+ la_data_in[9] la_data_out[0] la_data_out[100] la_data_out[101] la_data_out[102]
-+ la_data_out[103] la_data_out[104] la_data_out[105] la_data_out[106] la_data_out[107]
-+ la_data_out[108] la_data_out[109] la_data_out[10] la_data_out[110] la_data_out[111]
-+ la_data_out[112] la_data_out[113] la_data_out[114] la_data_out[115] la_data_out[116]
-+ la_data_out[117] la_data_out[118] la_data_out[119] la_data_out[11] la_data_out[120]
-+ la_data_out[121] la_data_out[122] la_data_out[123] la_data_out[124] la_data_out[125]
-+ la_data_out[126] la_data_out[127] la_data_out[12] la_data_out[13] la_data_out[14]
-+ la_data_out[15] la_data_out[16] la_data_out[17] la_data_out[18] la_data_out[19]
-+ la_data_out[1] la_data_out[20] la_data_out[21] la_data_out[22] la_data_out[23] la_data_out[24]
-+ la_data_out[25] la_data_out[26] la_data_out[27] la_data_out[28] la_data_out[29]
-+ la_data_out[2] la_data_out[30] la_data_out[31] la_data_out[32] la_data_out[33] la_data_out[34]
-+ la_data_out[35] la_data_out[36] la_data_out[37] la_data_out[38] la_data_out[39]
-+ la_data_out[3] la_data_out[40] la_data_out[41] la_data_out[42] la_data_out[43] la_data_out[44]
-+ la_data_out[45] la_data_out[46] la_data_out[47] la_data_out[48] la_data_out[49]
-+ la_data_out[4] la_data_out[50] la_data_out[51] la_data_out[52] la_data_out[53] la_data_out[54]
-+ la_data_out[55] la_data_out[56] la_data_out[57] la_data_out[58] la_data_out[59]
-+ la_data_out[5] la_data_out[60] la_data_out[61] la_data_out[62] la_data_out[63] la_data_out[64]
-+ la_data_out[65] la_data_out[66] la_data_out[67] la_data_out[68] la_data_out[69]
-+ la_data_out[6] la_data_out[70] la_data_out[71] la_data_out[72] la_data_out[73] la_data_out[74]
-+ la_data_out[75] la_data_out[76] la_data_out[77] la_data_out[78] la_data_out[79]
-+ la_data_out[7] la_data_out[80] la_data_out[81] la_data_out[82] la_data_out[83] la_data_out[84]
-+ la_data_out[85] la_data_out[86] la_data_out[87] la_data_out[88] la_data_out[89]
-+ la_data_out[8] la_data_out[90] la_data_out[91] la_data_out[92] la_data_out[93] la_data_out[94]
-+ la_data_out[95] la_data_out[96] la_data_out[97] la_data_out[98] la_data_out[99]
-+ la_data_out[9] la_oenb[0] la_oenb[100] la_oenb[101] la_oenb[102] la_oenb[103] la_oenb[104]
-+ la_oenb[105] la_oenb[106] la_oenb[107] la_oenb[108] la_oenb[109] la_oenb[10] la_oenb[110]
-+ la_oenb[111] la_oenb[112] la_oenb[113] la_oenb[114] la_oenb[115] la_oenb[116] la_oenb[117]
-+ la_oenb[118] la_oenb[119] la_oenb[11] la_oenb[120] la_oenb[121] la_oenb[122] la_oenb[123]
-+ la_oenb[124] la_oenb[125] la_oenb[126] la_oenb[127] la_oenb[12] la_oenb[13] la_oenb[14]
-+ la_oenb[15] la_oenb[16] la_oenb[17] la_oenb[18] la_oenb[19] la_oenb[1] la_oenb[20]
-+ la_oenb[21] la_oenb[22] la_oenb[23] la_oenb[24] la_oenb[25] la_oenb[26] la_oenb[27]
-+ la_oenb[28] la_oenb[29] la_oenb[2] la_oenb[30] la_oenb[31] la_oenb[32] la_oenb[33]
-+ la_oenb[34] la_oenb[35] la_oenb[36] la_oenb[37] la_oenb[38] la_oenb[39] la_oenb[3]
-+ la_oenb[40] la_oenb[41] la_oenb[42] la_oenb[43] la_oenb[44] la_oenb[45] la_oenb[46]
-+ la_oenb[47] la_oenb[48] la_oenb[49] la_oenb[4] la_oenb[50] la_oenb[51] la_oenb[52]
-+ la_oenb[53] la_oenb[54] la_oenb[55] la_oenb[56] la_oenb[57] la_oenb[58] la_oenb[59]
-+ la_oenb[5] la_oenb[60] la_oenb[61] la_oenb[62] la_oenb[63] la_oenb[64] la_oenb[65]
-+ la_oenb[66] la_oenb[67] la_oenb[68] la_oenb[69] la_oenb[6] la_oenb[70] la_oenb[71]
-+ la_oenb[72] la_oenb[73] la_oenb[74] la_oenb[75] la_oenb[76] la_oenb[77] la_oenb[78]
-+ la_oenb[79] la_oenb[7] la_oenb[80] la_oenb[81] la_oenb[82] la_oenb[83] la_oenb[84]
-+ la_oenb[85] la_oenb[86] la_oenb[87] la_oenb[88] la_oenb[89] la_oenb[8] la_oenb[90]
-+ la_oenb[91] la_oenb[92] la_oenb[93] la_oenb[94] la_oenb[95] la_oenb[96] la_oenb[97]
-+ la_oenb[98] la_oenb[99] la_oenb[9] wb_clk_i wb_rst_i wbs_ack_o wbs_adr_i[0] wbs_adr_i[10]
-+ wbs_adr_i[11] wbs_adr_i[12] wbs_adr_i[13] wbs_adr_i[14] wbs_adr_i[15] wbs_adr_i[16]
-+ wbs_adr_i[17] wbs_adr_i[18] wbs_adr_i[19] wbs_adr_i[1] wbs_adr_i[20] wbs_adr_i[21]
-+ wbs_adr_i[22] wbs_adr_i[23] wbs_adr_i[24] wbs_adr_i[25] wbs_adr_i[26] wbs_adr_i[27]
-+ wbs_adr_i[28] wbs_adr_i[29] wbs_adr_i[2] wbs_adr_i[30] wbs_adr_i[31] wbs_adr_i[3]
-+ wbs_adr_i[4] wbs_adr_i[5] wbs_adr_i[6] wbs_adr_i[7] wbs_adr_i[8] wbs_adr_i[9] wbs_cyc_i
-+ wbs_dat_i[0] wbs_dat_i[10] wbs_dat_i[11] wbs_dat_i[12] wbs_dat_i[13] wbs_dat_i[14]
-+ wbs_dat_i[15] wbs_dat_i[16] wbs_dat_i[17] wbs_dat_i[18] wbs_dat_i[19] wbs_dat_i[1]
-+ wbs_dat_i[20] wbs_dat_i[21] wbs_dat_i[22] wbs_dat_i[23] wbs_dat_i[24] wbs_dat_i[25]
-+ wbs_dat_i[26] wbs_dat_i[27] wbs_dat_i[28] wbs_dat_i[29] wbs_dat_i[2] wbs_dat_i[30]
-+ wbs_dat_i[31] wbs_dat_i[3] wbs_dat_i[4] wbs_dat_i[5] wbs_dat_i[6] wbs_dat_i[7] wbs_dat_i[8]
-+ wbs_dat_i[9] wbs_dat_o[0] wbs_dat_o[10] wbs_dat_o[11] wbs_dat_o[12] wbs_dat_o[13]
-+ wbs_dat_o[14] wbs_dat_o[15] wbs_dat_o[16] wbs_dat_o[17] wbs_dat_o[18] wbs_dat_o[19]
-+ wbs_dat_o[1] wbs_dat_o[20] wbs_dat_o[21] wbs_dat_o[22] wbs_dat_o[23] wbs_dat_o[24]
-+ wbs_dat_o[25] wbs_dat_o[26] wbs_dat_o[27] wbs_dat_o[28] wbs_dat_o[29] wbs_dat_o[2]
-+ wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3] wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6]
-+ wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
-+ wbs_stb_i wbs_we_i vccd1 vssd1 vccd2 vssd2 vdda1 vssa1 vdda2 vssa2
+* Black-box entry subcircuit for sky130_fd_sc_hd__conb_1 abstract view
+.subckt sky130_fd_sc_hd__conb_1 VGND VNB VPB VPWR HI LO
+.ends
+
+* Black-box entry subcircuit for dpll abstract view
+.subckt dpll clockp[0] clockp[1] div[0] div[1] div[2] div[3] div[4] enable osc resetb
++ vccd1 vssd1 vccd2 vssd2 vdda1 vssa1 vdda2 vssa2
 .ends
 
 .subckt user_project_wrapper analog_io[0] analog_io[10] analog_io[11] analog_io[12]
@@ -200,101 +110,245 @@
 + wbs_dat_o[31] wbs_dat_o[3] wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6] wbs_dat_o[7] wbs_dat_o[8]
 + wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3] wbs_stb_i wbs_we_i
 + vccd1 vssd1 vccd2 vssd2 vdda1 vssa1 vdda2 vssa2
-Xmprj io_in[0] io_in[10] io_in[11] io_in[12] io_in[13] io_in[14] io_in[15] io_in[16]
-+ io_in[17] io_in[18] io_in[19] io_in[1] io_in[20] io_in[21] io_in[22] io_in[23] io_in[24]
-+ io_in[25] io_in[26] io_in[27] io_in[28] io_in[29] io_in[2] io_in[30] io_in[31] io_in[32]
-+ io_in[33] io_in[34] io_in[35] io_in[36] io_in[37] io_in[3] io_in[4] io_in[5] io_in[6]
-+ io_in[7] io_in[8] io_in[9] io_oeb[0] io_oeb[10] io_oeb[11] io_oeb[12] io_oeb[13]
-+ io_oeb[14] io_oeb[15] io_oeb[16] io_oeb[17] io_oeb[18] io_oeb[19] io_oeb[1] io_oeb[20]
-+ io_oeb[21] io_oeb[22] io_oeb[23] io_oeb[24] io_oeb[25] io_oeb[26] io_oeb[27] io_oeb[28]
-+ io_oeb[29] io_oeb[2] io_oeb[30] io_oeb[31] io_oeb[32] io_oeb[33] io_oeb[34] io_oeb[35]
-+ io_oeb[36] io_oeb[37] io_oeb[3] io_oeb[4] io_oeb[5] io_oeb[6] io_oeb[7] io_oeb[8]
-+ io_oeb[9] io_out[0] io_out[10] io_out[11] io_out[12] io_out[13] io_out[14] io_out[15]
-+ io_out[16] io_out[17] io_out[18] io_out[19] io_out[1] io_out[20] io_out[21] io_out[22]
-+ io_out[23] io_out[24] io_out[25] io_out[26] io_out[27] io_out[28] io_out[29] io_out[2]
-+ io_out[30] io_out[31] io_out[32] io_out[33] io_out[34] io_out[35] io_out[36] io_out[37]
-+ io_out[3] io_out[4] io_out[5] io_out[6] io_out[7] io_out[8] io_out[9] user_irq[0]
-+ user_irq[1] user_irq[2] la_data_in[0] la_data_in[100] la_data_in[101] la_data_in[102]
-+ la_data_in[103] la_data_in[104] la_data_in[105] la_data_in[106] la_data_in[107]
-+ la_data_in[108] la_data_in[109] la_data_in[10] la_data_in[110] la_data_in[111] la_data_in[112]
-+ la_data_in[113] la_data_in[114] la_data_in[115] la_data_in[116] la_data_in[117]
-+ la_data_in[118] la_data_in[119] la_data_in[11] la_data_in[120] la_data_in[121] la_data_in[122]
-+ la_data_in[123] la_data_in[124] la_data_in[125] la_data_in[126] la_data_in[127]
-+ la_data_in[12] la_data_in[13] la_data_in[14] la_data_in[15] la_data_in[16] la_data_in[17]
-+ la_data_in[18] la_data_in[19] la_data_in[1] la_data_in[20] la_data_in[21] la_data_in[22]
-+ la_data_in[23] la_data_in[24] la_data_in[25] la_data_in[26] la_data_in[27] la_data_in[28]
-+ la_data_in[29] la_data_in[2] la_data_in[30] la_data_in[31] la_data_in[32] la_data_in[33]
-+ la_data_in[34] la_data_in[35] la_data_in[36] la_data_in[37] la_data_in[38] la_data_in[39]
-+ la_data_in[3] la_data_in[40] la_data_in[41] la_data_in[42] la_data_in[43] la_data_in[44]
-+ la_data_in[45] la_data_in[46] la_data_in[47] la_data_in[48] la_data_in[49] la_data_in[4]
-+ la_data_in[50] la_data_in[51] la_data_in[52] la_data_in[53] la_data_in[54] la_data_in[55]
-+ la_data_in[56] la_data_in[57] la_data_in[58] la_data_in[59] la_data_in[5] la_data_in[60]
-+ la_data_in[61] la_data_in[62] la_data_in[63] la_data_in[64] la_data_in[65] la_data_in[66]
-+ la_data_in[67] la_data_in[68] la_data_in[69] la_data_in[6] la_data_in[70] la_data_in[71]
-+ la_data_in[72] la_data_in[73] la_data_in[74] la_data_in[75] la_data_in[76] la_data_in[77]
-+ la_data_in[78] la_data_in[79] la_data_in[7] la_data_in[80] la_data_in[81] la_data_in[82]
-+ la_data_in[83] la_data_in[84] la_data_in[85] la_data_in[86] la_data_in[87] la_data_in[88]
-+ la_data_in[89] la_data_in[8] la_data_in[90] la_data_in[91] la_data_in[92] la_data_in[93]
-+ la_data_in[94] la_data_in[95] la_data_in[96] la_data_in[97] la_data_in[98] la_data_in[99]
-+ la_data_in[9] la_data_out[0] la_data_out[100] la_data_out[101] la_data_out[102]
-+ la_data_out[103] la_data_out[104] la_data_out[105] la_data_out[106] la_data_out[107]
-+ la_data_out[108] la_data_out[109] la_data_out[10] la_data_out[110] la_data_out[111]
-+ la_data_out[112] la_data_out[113] la_data_out[114] la_data_out[115] la_data_out[116]
-+ la_data_out[117] la_data_out[118] la_data_out[119] la_data_out[11] la_data_out[120]
-+ la_data_out[121] la_data_out[122] la_data_out[123] la_data_out[124] la_data_out[125]
-+ la_data_out[126] la_data_out[127] la_data_out[12] la_data_out[13] la_data_out[14]
-+ la_data_out[15] la_data_out[16] la_data_out[17] la_data_out[18] la_data_out[19]
-+ la_data_out[1] la_data_out[20] la_data_out[21] la_data_out[22] la_data_out[23] la_data_out[24]
-+ la_data_out[25] la_data_out[26] la_data_out[27] la_data_out[28] la_data_out[29]
-+ la_data_out[2] la_data_out[30] la_data_out[31] la_data_out[32] la_data_out[33] la_data_out[34]
-+ la_data_out[35] la_data_out[36] la_data_out[37] la_data_out[38] la_data_out[39]
-+ la_data_out[3] la_data_out[40] la_data_out[41] la_data_out[42] la_data_out[43] la_data_out[44]
-+ la_data_out[45] la_data_out[46] la_data_out[47] la_data_out[48] la_data_out[49]
-+ la_data_out[4] la_data_out[50] la_data_out[51] la_data_out[52] la_data_out[53] la_data_out[54]
-+ la_data_out[55] la_data_out[56] la_data_out[57] la_data_out[58] la_data_out[59]
-+ la_data_out[5] la_data_out[60] la_data_out[61] la_data_out[62] la_data_out[63] la_data_out[64]
-+ la_data_out[65] la_data_out[66] la_data_out[67] la_data_out[68] la_data_out[69]
-+ la_data_out[6] la_data_out[70] la_data_out[71] la_data_out[72] la_data_out[73] la_data_out[74]
-+ la_data_out[75] la_data_out[76] la_data_out[77] la_data_out[78] la_data_out[79]
-+ la_data_out[7] la_data_out[80] la_data_out[81] la_data_out[82] la_data_out[83] la_data_out[84]
-+ la_data_out[85] la_data_out[86] la_data_out[87] la_data_out[88] la_data_out[89]
-+ la_data_out[8] la_data_out[90] la_data_out[91] la_data_out[92] la_data_out[93] la_data_out[94]
-+ la_data_out[95] la_data_out[96] la_data_out[97] la_data_out[98] la_data_out[99]
-+ la_data_out[9] la_oenb[0] la_oenb[100] la_oenb[101] la_oenb[102] la_oenb[103] la_oenb[104]
-+ la_oenb[105] la_oenb[106] la_oenb[107] la_oenb[108] la_oenb[109] la_oenb[10] la_oenb[110]
-+ la_oenb[111] la_oenb[112] la_oenb[113] la_oenb[114] la_oenb[115] la_oenb[116] la_oenb[117]
-+ la_oenb[118] la_oenb[119] la_oenb[11] la_oenb[120] la_oenb[121] la_oenb[122] la_oenb[123]
-+ la_oenb[124] la_oenb[125] la_oenb[126] la_oenb[127] la_oenb[12] la_oenb[13] la_oenb[14]
-+ la_oenb[15] la_oenb[16] la_oenb[17] la_oenb[18] la_oenb[19] la_oenb[1] la_oenb[20]
-+ la_oenb[21] la_oenb[22] la_oenb[23] la_oenb[24] la_oenb[25] la_oenb[26] la_oenb[27]
-+ la_oenb[28] la_oenb[29] la_oenb[2] la_oenb[30] la_oenb[31] la_oenb[32] la_oenb[33]
-+ la_oenb[34] la_oenb[35] la_oenb[36] la_oenb[37] la_oenb[38] la_oenb[39] la_oenb[3]
-+ la_oenb[40] la_oenb[41] la_oenb[42] la_oenb[43] la_oenb[44] la_oenb[45] la_oenb[46]
-+ la_oenb[47] la_oenb[48] la_oenb[49] la_oenb[4] la_oenb[50] la_oenb[51] la_oenb[52]
-+ la_oenb[53] la_oenb[54] la_oenb[55] la_oenb[56] la_oenb[57] la_oenb[58] la_oenb[59]
-+ la_oenb[5] la_oenb[60] la_oenb[61] la_oenb[62] la_oenb[63] la_oenb[64] la_oenb[65]
-+ la_oenb[66] la_oenb[67] la_oenb[68] la_oenb[69] la_oenb[6] la_oenb[70] la_oenb[71]
-+ la_oenb[72] la_oenb[73] la_oenb[74] la_oenb[75] la_oenb[76] la_oenb[77] la_oenb[78]
-+ la_oenb[79] la_oenb[7] la_oenb[80] la_oenb[81] la_oenb[82] la_oenb[83] la_oenb[84]
-+ la_oenb[85] la_oenb[86] la_oenb[87] la_oenb[88] la_oenb[89] la_oenb[8] la_oenb[90]
-+ la_oenb[91] la_oenb[92] la_oenb[93] la_oenb[94] la_oenb[95] la_oenb[96] la_oenb[97]
-+ la_oenb[98] la_oenb[99] la_oenb[9] wb_clk_i wb_rst_i wbs_ack_o wbs_adr_i[0] wbs_adr_i[10]
-+ wbs_adr_i[11] wbs_adr_i[12] wbs_adr_i[13] wbs_adr_i[14] wbs_adr_i[15] wbs_adr_i[16]
-+ wbs_adr_i[17] wbs_adr_i[18] wbs_adr_i[19] wbs_adr_i[1] wbs_adr_i[20] wbs_adr_i[21]
-+ wbs_adr_i[22] wbs_adr_i[23] wbs_adr_i[24] wbs_adr_i[25] wbs_adr_i[26] wbs_adr_i[27]
-+ wbs_adr_i[28] wbs_adr_i[29] wbs_adr_i[2] wbs_adr_i[30] wbs_adr_i[31] wbs_adr_i[3]
-+ wbs_adr_i[4] wbs_adr_i[5] wbs_adr_i[6] wbs_adr_i[7] wbs_adr_i[8] wbs_adr_i[9] wbs_cyc_i
-+ wbs_dat_i[0] wbs_dat_i[10] wbs_dat_i[11] wbs_dat_i[12] wbs_dat_i[13] wbs_dat_i[14]
-+ wbs_dat_i[15] wbs_dat_i[16] wbs_dat_i[17] wbs_dat_i[18] wbs_dat_i[19] wbs_dat_i[1]
-+ wbs_dat_i[20] wbs_dat_i[21] wbs_dat_i[22] wbs_dat_i[23] wbs_dat_i[24] wbs_dat_i[25]
-+ wbs_dat_i[26] wbs_dat_i[27] wbs_dat_i[28] wbs_dat_i[29] wbs_dat_i[2] wbs_dat_i[30]
-+ wbs_dat_i[31] wbs_dat_i[3] wbs_dat_i[4] wbs_dat_i[5] wbs_dat_i[6] wbs_dat_i[7] wbs_dat_i[8]
-+ wbs_dat_i[9] wbs_dat_o[0] wbs_dat_o[10] wbs_dat_o[11] wbs_dat_o[12] wbs_dat_o[13]
-+ wbs_dat_o[14] wbs_dat_o[15] wbs_dat_o[16] wbs_dat_o[17] wbs_dat_o[18] wbs_dat_o[19]
-+ wbs_dat_o[1] wbs_dat_o[20] wbs_dat_o[21] wbs_dat_o[22] wbs_dat_o[23] wbs_dat_o[24]
-+ wbs_dat_o[25] wbs_dat_o[26] wbs_dat_o[27] wbs_dat_o[28] wbs_dat_o[29] wbs_dat_o[2]
-+ wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3] wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6]
-+ wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
-+ wbs_stb_i wbs_we_i vccd1 vssd1 vccd2 vssd2 vdda1 vssa1 vdda2 vssa2 user_proj_example
+X_131_ vssd1 VSUBS _131_/VPB vccd1 _131_/HI la_data_out[69] sky130_fd_sc_hd__conb_1
+X_062_ vssd1 VSUBS _062_/VPB vccd1 _062_/HI la_data_out[0] sky130_fd_sc_hd__conb_1
+X_200_ vssd1 VSUBS _200_/VPB vccd1 _200_/HI wbs_dat_o[6] sky130_fd_sc_hd__conb_1
+X_045_ vssd1 VSUBS _045_/VPB vccd1 _045_/HI io_out[21] sky130_fd_sc_hd__conb_1
+X_028_ vssd1 VSUBS _028_/VPB vccd1 _028_/HI io_out[4] sky130_fd_sc_hd__conb_1
+X_114_ vssd1 VSUBS _114_/VPB vccd1 _114_/HI la_data_out[52] sky130_fd_sc_hd__conb_1
+X_130_ vssd1 VSUBS _130_/VPB vccd1 _130_/HI la_data_out[68] sky130_fd_sc_hd__conb_1
+X_061_ vssd1 VSUBS _061_/VPB vccd1 _061_/HI io_out[37] sky130_fd_sc_hd__conb_1
+X_044_ vssd1 VSUBS _044_/VPB vccd1 _044_/HI io_out[20] sky130_fd_sc_hd__conb_1
+X_113_ vssd1 VSUBS _113_/VPB vccd1 _113_/HI la_data_out[51] sky130_fd_sc_hd__conb_1
+X_027_ vssd1 VSUBS _027_/VPB vccd1 _027_/HI io_out[3] sky130_fd_sc_hd__conb_1
+X_060_ vssd1 VSUBS _060_/VPB vccd1 _060_/HI io_out[36] sky130_fd_sc_hd__conb_1
+X_189_ vssd1 VSUBS _189_/VPB vccd1 _189_/HI la_data_out[127] sky130_fd_sc_hd__conb_1
+X_043_ vssd1 VSUBS _043_/VPB vccd1 _043_/HI io_out[19] sky130_fd_sc_hd__conb_1
+X_026_ vssd1 VSUBS _026_/VPB vccd1 _026_/HI io_out[2] sky130_fd_sc_hd__conb_1
+X_112_ vssd1 VSUBS _112_/VPB vccd1 _112_/HI la_data_out[50] sky130_fd_sc_hd__conb_1
+X_009_ vssd1 VSUBS _009_/VPB vccd1 _009_/HI io_oeb[21] sky130_fd_sc_hd__conb_1
+X_111_ vssd1 VSUBS _111_/VPB vccd1 _111_/HI la_data_out[49] sky130_fd_sc_hd__conb_1
+X_042_ vssd1 VSUBS _042_/VPB vccd1 _042_/HI io_out[18] sky130_fd_sc_hd__conb_1
+X_188_ vssd1 VSUBS _188_/VPB vccd1 _188_/HI la_data_out[126] sky130_fd_sc_hd__conb_1
+X_025_ vssd1 VSUBS _025_/VPB vccd1 _025_/HI io_oeb[37] sky130_fd_sc_hd__conb_1
+X_008_ vssd1 VSUBS _008_/VPB vccd1 _008_/HI io_oeb[20] sky130_fd_sc_hd__conb_1
+X_187_ vssd1 VSUBS _187_/VPB vccd1 _187_/HI la_data_out[125] sky130_fd_sc_hd__conb_1
+X_041_ vssd1 VSUBS _041_/VPB vccd1 _041_/HI io_out[17] sky130_fd_sc_hd__conb_1
+X_110_ vssd1 VSUBS _110_/VPB vccd1 _110_/HI la_data_out[48] sky130_fd_sc_hd__conb_1
+X_024_ vssd1 VSUBS _024_/VPB vccd1 _024_/HI io_oeb[36] sky130_fd_sc_hd__conb_1
+X_007_ _007_/VGND VSUBS _007_/VPB _007_/VPWR _007_/HI io_oeb[19] sky130_fd_sc_hd__conb_1
+X_040_ vssd1 VSUBS _040_/VPB vccd1 _040_/HI io_out[16] sky130_fd_sc_hd__conb_1
+X_186_ vssd1 VSUBS _186_/VPB vccd1 _186_/HI la_data_out[124] sky130_fd_sc_hd__conb_1
+X_023_ vssd1 VSUBS _023_/VPB vccd1 _023_/HI io_oeb[35] sky130_fd_sc_hd__conb_1
+X_169_ vssd1 VSUBS _169_/VPB vccd1 _169_/HI la_data_out[107] sky130_fd_sc_hd__conb_1
+X_006_ vssd1 VSUBS _006_/VPB vccd1 _006_/HI io_oeb[18] sky130_fd_sc_hd__conb_1
+X_185_ vssd1 VSUBS _185_/VPB vccd1 _185_/HI la_data_out[123] sky130_fd_sc_hd__conb_1
+X_237_ vssd1 VSUBS _237_/VPB vccd1 _237_/HI io_oeb[11] sky130_fd_sc_hd__conb_1
+X_168_ vssd1 VSUBS _168_/VPB vccd1 _168_/HI la_data_out[106] sky130_fd_sc_hd__conb_1
+X_099_ vssd1 VSUBS _099_/VPB vccd1 _099_/HI la_data_out[37] sky130_fd_sc_hd__conb_1
+X_005_ vssd1 VSUBS _005_/VPB vccd1 _005_/HI io_oeb[17] sky130_fd_sc_hd__conb_1
+X_022_ vssd1 VSUBS _022_/VPB vccd1 _022_/HI io_oeb[34] sky130_fd_sc_hd__conb_1
+X_184_ vssd1 VSUBS _184_/VPB vccd1 _184_/HI la_data_out[122] sky130_fd_sc_hd__conb_1
+X_236_ vssd1 VSUBS _236_/VPB vccd1 _236_/HI io_oeb[10] sky130_fd_sc_hd__conb_1
+X_219_ vssd1 VSUBS _219_/VPB vccd1 _219_/HI wbs_dat_o[25] sky130_fd_sc_hd__conb_1
+X_021_ vssd1 VSUBS _021_/VPB vccd1 _021_/HI io_oeb[33] sky130_fd_sc_hd__conb_1
+X_167_ vssd1 VSUBS _167_/VPB vccd1 _167_/HI la_data_out[105] sky130_fd_sc_hd__conb_1
+X_098_ vssd1 VSUBS _098_/VPB vccd1 _098_/HI la_data_out[36] sky130_fd_sc_hd__conb_1
+X_004_ vssd1 VSUBS _004_/VPB vccd1 _004_/HI io_oeb[16] sky130_fd_sc_hd__conb_1
+X_166_ vssd1 VSUBS _166_/VPB vccd1 _166_/HI la_data_out[104] sky130_fd_sc_hd__conb_1
+X_235_ vssd1 VSUBS _235_/VPB vccd1 _235_/HI io_oeb[9] sky130_fd_sc_hd__conb_1
+X_183_ vssd1 VSUBS _183_/VPB vccd1 _183_/HI la_data_out[121] sky130_fd_sc_hd__conb_1
+X_097_ vssd1 VSUBS _097_/VPB vccd1 _097_/HI la_data_out[35] sky130_fd_sc_hd__conb_1
+X_003_ vssd1 VSUBS _003_/VPB vccd1 _003_/HI io_oeb[15] sky130_fd_sc_hd__conb_1
+X_020_ vssd1 VSUBS _020_/VPB vccd1 _020_/HI io_oeb[32] sky130_fd_sc_hd__conb_1
+X_149_ vssd1 VSUBS _149_/VPB vccd1 _149_/HI la_data_out[87] sky130_fd_sc_hd__conb_1
+X_218_ vssd1 VSUBS _218_/VPB vccd1 _218_/HI wbs_dat_o[24] sky130_fd_sc_hd__conb_1
+X_182_ _182_/VGND VSUBS _182_/VPB _182_/VPWR _182_/HI la_data_out[120] sky130_fd_sc_hd__conb_1
+X_148_ vssd1 VSUBS _148_/VPB vccd1 _148_/HI la_data_out[86] sky130_fd_sc_hd__conb_1
+X_217_ vssd1 VSUBS _217_/VPB vccd1 _217_/HI wbs_dat_o[23] sky130_fd_sc_hd__conb_1
+X_234_ vssd1 VSUBS _234_/VPB vccd1 _234_/HI io_oeb[8] sky130_fd_sc_hd__conb_1
+X_165_ vssd1 VSUBS _165_/VPB vccd1 _165_/HI la_data_out[103] sky130_fd_sc_hd__conb_1
+X_096_ vssd1 VSUBS _096_/VPB vccd1 _096_/HI la_data_out[34] sky130_fd_sc_hd__conb_1
+X_002_ vssd1 VSUBS _002_/VPB vccd1 _002_/HI io_oeb[14] sky130_fd_sc_hd__conb_1
+X_079_ vssd1 VSUBS _079_/VPB vccd1 _079_/HI la_data_out[17] sky130_fd_sc_hd__conb_1
+X_164_ vssd1 VSUBS _164_/VPB vccd1 _164_/HI la_data_out[102] sky130_fd_sc_hd__conb_1
+X_181_ vssd1 VSUBS _181_/VPB vccd1 _181_/HI la_data_out[119] sky130_fd_sc_hd__conb_1
+X_095_ vssd1 VSUBS _095_/VPB vccd1 _095_/HI la_data_out[33] sky130_fd_sc_hd__conb_1
+X_233_ _233_/VGND VSUBS _233_/VPB _233_/VPWR _233_/HI io_oeb[7] sky130_fd_sc_hd__conb_1
+X_216_ vssd1 VSUBS _216_/VPB vccd1 _216_/HI wbs_dat_o[22] sky130_fd_sc_hd__conb_1
+X_147_ _147_/VGND VSUBS _147_/VPB _147_/VPWR _147_/HI la_data_out[85] sky130_fd_sc_hd__conb_1
+X_001_ _001_/VGND VSUBS _001_/VPB _001_/VPWR _001_/HI io_oeb[13] sky130_fd_sc_hd__conb_1
+X_078_ vssd1 VSUBS _078_/VPB vccd1 _078_/HI la_data_out[16] sky130_fd_sc_hd__conb_1
+X_180_ vssd1 VSUBS _180_/VPB vccd1 _180_/HI la_data_out[118] sky130_fd_sc_hd__conb_1
+X_094_ vssd1 VSUBS _094_/VPB vccd1 _094_/HI la_data_out[32] sky130_fd_sc_hd__conb_1
+X_232_ vssd1 VSUBS _232_/VPB vccd1 _232_/HI io_oeb[6] sky130_fd_sc_hd__conb_1
+X_163_ vssd1 VSUBS _163_/VPB vccd1 _163_/HI la_data_out[101] sky130_fd_sc_hd__conb_1
+X_215_ vssd1 VSUBS _215_/VPB vccd1 _215_/HI wbs_dat_o[21] sky130_fd_sc_hd__conb_1
+X_077_ vssd1 VSUBS _077_/VPB vccd1 _077_/HI la_data_out[15] sky130_fd_sc_hd__conb_1
+X_000_ vssd1 VSUBS _000_/VPB vccd1 _000_/HI io_oeb[12] sky130_fd_sc_hd__conb_1
+X_146_ vssd1 VSUBS _146_/VPB vccd1 _146_/HI la_data_out[84] sky130_fd_sc_hd__conb_1
+X_129_ vssd1 VSUBS _129_/VPB vccd1 _129_/HI la_data_out[67] sky130_fd_sc_hd__conb_1
+X_162_ vssd1 VSUBS _162_/VPB vccd1 _162_/HI la_data_out[100] sky130_fd_sc_hd__conb_1
+X_093_ vssd1 VSUBS _093_/VPB vccd1 _093_/HI la_data_out[31] sky130_fd_sc_hd__conb_1
+X_231_ vssd1 VSUBS _231_/VPB vccd1 _231_/HI io_oeb[5] sky130_fd_sc_hd__conb_1
+X_076_ vssd1 VSUBS _076_/VPB vccd1 _076_/HI la_data_out[14] sky130_fd_sc_hd__conb_1
+X_145_ vssd1 VSUBS _145_/VPB vccd1 _145_/HI la_data_out[83] sky130_fd_sc_hd__conb_1
+X_214_ vssd1 VSUBS _214_/VPB vccd1 _214_/HI wbs_dat_o[20] sky130_fd_sc_hd__conb_1
+X_059_ vssd1 VSUBS _059_/VPB vccd1 _059_/HI io_out[35] sky130_fd_sc_hd__conb_1
+X_128_ vssd1 VSUBS _128_/VPB vccd1 _128_/HI la_data_out[66] sky130_fd_sc_hd__conb_1
+X_161_ vssd1 VSUBS _161_/VPB vccd1 _161_/HI la_data_out[99] sky130_fd_sc_hd__conb_1
+X_092_ vssd1 VSUBS _092_/VPB vccd1 _092_/HI la_data_out[30] sky130_fd_sc_hd__conb_1
+X_230_ _230_/VGND VSUBS _230_/VPB _230_/VPWR _230_/HI io_oeb[4] sky130_fd_sc_hd__conb_1
+X_213_ vssd1 VSUBS _213_/VPB vccd1 _213_/HI wbs_dat_o[19] sky130_fd_sc_hd__conb_1
+X_144_ vssd1 VSUBS _144_/VPB vccd1 _144_/HI la_data_out[82] sky130_fd_sc_hd__conb_1
+X_075_ vssd1 VSUBS _075_/VPB vccd1 _075_/HI la_data_out[13] sky130_fd_sc_hd__conb_1
+X_058_ vssd1 VSUBS _058_/VPB vccd1 _058_/HI io_out[34] sky130_fd_sc_hd__conb_1
+X_127_ vssd1 VSUBS _127_/VPB vccd1 _127_/HI la_data_out[65] sky130_fd_sc_hd__conb_1
+X_091_ vssd1 VSUBS _091_/VPB vccd1 _091_/HI la_data_out[29] sky130_fd_sc_hd__conb_1
+X_212_ vssd1 VSUBS _212_/VPB vccd1 _212_/HI wbs_dat_o[18] sky130_fd_sc_hd__conb_1
+X_074_ vssd1 VSUBS _074_/VPB vccd1 _074_/HI la_data_out[12] sky130_fd_sc_hd__conb_1
+X_160_ vssd1 VSUBS _160_/VPB vccd1 _160_/HI la_data_out[98] sky130_fd_sc_hd__conb_1
+X_143_ vssd1 VSUBS _143_/VPB vccd1 _143_/HI la_data_out[81] sky130_fd_sc_hd__conb_1
+X_057_ vssd1 VSUBS _057_/VPB vccd1 _057_/HI io_out[33] sky130_fd_sc_hd__conb_1
+X_126_ vssd1 VSUBS _126_/VPB vccd1 _126_/HI la_data_out[64] sky130_fd_sc_hd__conb_1
+X_109_ vssd1 VSUBS _109_/VPB vccd1 _109_/HI la_data_out[47] sky130_fd_sc_hd__conb_1
+X_090_ vssd1 VSUBS _090_/VPB vccd1 _090_/HI la_data_out[28] sky130_fd_sc_hd__conb_1
+X_142_ vssd1 VSUBS _142_/VPB vccd1 _142_/HI la_data_out[80] sky130_fd_sc_hd__conb_1
+X_211_ vssd1 VSUBS _211_/VPB vccd1 _211_/HI wbs_dat_o[17] sky130_fd_sc_hd__conb_1
+X_125_ vssd1 VSUBS _125_/VPB vccd1 _125_/HI la_data_out[63] sky130_fd_sc_hd__conb_1
+X_056_ vssd1 VSUBS _056_/VPB vccd1 _056_/HI io_out[32] sky130_fd_sc_hd__conb_1
+X_073_ _073_/VGND VSUBS _073_/VPB _073_/VPWR _073_/HI la_data_out[11] sky130_fd_sc_hd__conb_1
+X_108_ vssd1 VSUBS _108_/VPB vccd1 _108_/HI la_data_out[46] sky130_fd_sc_hd__conb_1
+X_039_ vssd1 VSUBS _039_/VPB vccd1 _039_/HI io_out[15] sky130_fd_sc_hd__conb_1
+X_141_ vssd1 VSUBS _141_/VPB vccd1 _141_/HI la_data_out[79] sky130_fd_sc_hd__conb_1
+X_210_ vssd1 VSUBS _210_/VPB vccd1 _210_/HI wbs_dat_o[16] sky130_fd_sc_hd__conb_1
+X_072_ vssd1 VSUBS _072_/VPB vccd1 _072_/HI la_data_out[10] sky130_fd_sc_hd__conb_1
+X_055_ vssd1 VSUBS _055_/VPB vccd1 _055_/HI io_out[31] sky130_fd_sc_hd__conb_1
+X_124_ vssd1 VSUBS _124_/VPB vccd1 _124_/HI la_data_out[62] sky130_fd_sc_hd__conb_1
+X_107_ vssd1 VSUBS _107_/VPB vccd1 _107_/HI la_data_out[45] sky130_fd_sc_hd__conb_1
+X_038_ vssd1 VSUBS _038_/VPB vccd1 _038_/HI io_out[14] sky130_fd_sc_hd__conb_1
+X_140_ vssd1 VSUBS _140_/VPB vccd1 _140_/HI la_data_out[78] sky130_fd_sc_hd__conb_1
+X_071_ vssd1 VSUBS _071_/VPB vccd1 _071_/HI la_data_out[9] sky130_fd_sc_hd__conb_1
+X_054_ vssd1 VSUBS _054_/VPB vccd1 _054_/HI io_out[30] sky130_fd_sc_hd__conb_1
+X_037_ vssd1 VSUBS _037_/VPB vccd1 _037_/HI io_out[13] sky130_fd_sc_hd__conb_1
+X_123_ vssd1 VSUBS _123_/VPB vccd1 _123_/HI la_data_out[61] sky130_fd_sc_hd__conb_1
+X_106_ vssd1 VSUBS _106_/VPB vccd1 _106_/HI la_data_out[44] sky130_fd_sc_hd__conb_1
+X_070_ vssd1 VSUBS _070_/VPB vccd1 _070_/HI la_data_out[8] sky130_fd_sc_hd__conb_1
+X_053_ vssd1 VSUBS _053_/VPB vccd1 _053_/HI io_out[29] sky130_fd_sc_hd__conb_1
+X_122_ vssd1 VSUBS _122_/VPB vccd1 _122_/HI la_data_out[60] sky130_fd_sc_hd__conb_1
+X_199_ vssd1 VSUBS _199_/VPB vccd1 _199_/HI wbs_dat_o[5] sky130_fd_sc_hd__conb_1
+X_105_ vssd1 VSUBS _105_/VPB vccd1 _105_/HI la_data_out[43] sky130_fd_sc_hd__conb_1
+X_036_ vssd1 VSUBS _036_/VPB vccd1 _036_/HI io_out[12] sky130_fd_sc_hd__conb_1
+X_019_ vssd1 VSUBS _019_/VPB vccd1 _019_/HI io_oeb[31] sky130_fd_sc_hd__conb_1
+X_198_ vssd1 VSUBS _198_/VPB vccd1 _198_/HI wbs_dat_o[4] sky130_fd_sc_hd__conb_1
+X_121_ vssd1 VSUBS _121_/VPB vccd1 _121_/HI la_data_out[59] sky130_fd_sc_hd__conb_1
+X_035_ vssd1 VSUBS _035_/VPB vccd1 _035_/HI io_out[11] sky130_fd_sc_hd__conb_1
+X_052_ vssd1 VSUBS _052_/VPB vccd1 _052_/HI io_out[28] sky130_fd_sc_hd__conb_1
+X_104_ vssd1 VSUBS _104_/VPB vccd1 _104_/HI la_data_out[42] sky130_fd_sc_hd__conb_1
+X_018_ vssd1 VSUBS _018_/VPB vccd1 _018_/HI io_oeb[30] sky130_fd_sc_hd__conb_1
+X_197_ vssd1 VSUBS _197_/VPB vccd1 _197_/HI wbs_dat_o[3] sky130_fd_sc_hd__conb_1
+X_051_ vssd1 VSUBS _051_/VPB vccd1 _051_/HI io_out[27] sky130_fd_sc_hd__conb_1
+X_120_ vssd1 VSUBS _120_/VPB vccd1 _120_/HI la_data_out[58] sky130_fd_sc_hd__conb_1
+X_034_ vssd1 VSUBS _034_/VPB vccd1 _034_/HI io_out[10] sky130_fd_sc_hd__conb_1
+X_103_ vssd1 VSUBS _103_/VPB vccd1 _103_/HI la_data_out[41] sky130_fd_sc_hd__conb_1
+X_017_ vssd1 VSUBS _017_/VPB vccd1 _017_/HI io_oeb[29] sky130_fd_sc_hd__conb_1
+X_196_ vssd1 VSUBS _196_/VPB vccd1 _196_/HI wbs_dat_o[2] sky130_fd_sc_hd__conb_1
+X_050_ vssd1 VSUBS _050_/VPB vccd1 _050_/HI io_out[26] sky130_fd_sc_hd__conb_1
+X_102_ vssd1 VSUBS _102_/VPB vccd1 _102_/HI la_data_out[40] sky130_fd_sc_hd__conb_1
+X_033_ vssd1 VSUBS _033_/VPB vccd1 _033_/HI io_out[9] sky130_fd_sc_hd__conb_1
+X_179_ vssd1 VSUBS _179_/VPB vccd1 _179_/HI la_data_out[117] sky130_fd_sc_hd__conb_1
+X_016_ vssd1 VSUBS _016_/VPB vccd1 _016_/HI io_oeb[28] sky130_fd_sc_hd__conb_1
+X_195_ vssd1 VSUBS _195_/VPB vccd1 _195_/HI wbs_dat_o[1] sky130_fd_sc_hd__conb_1
+X_178_ vssd1 VSUBS _178_/VPB vccd1 _178_/HI la_data_out[116] sky130_fd_sc_hd__conb_1
+X_032_ vssd1 VSUBS _032_/VPB vccd1 _032_/HI io_out[8] sky130_fd_sc_hd__conb_1
+X_101_ vssd1 VSUBS _101_/VPB vccd1 _101_/HI la_data_out[39] sky130_fd_sc_hd__conb_1
+X_015_ vssd1 VSUBS _015_/VPB vccd1 _015_/HI io_oeb[27] sky130_fd_sc_hd__conb_1
+X_194_ _194_/VGND VSUBS _194_/VPB _194_/VPWR _194_/HI wbs_dat_o[0] sky130_fd_sc_hd__conb_1
+X_031_ vssd1 VSUBS _031_/VPB vccd1 _031_/HI io_out[7] sky130_fd_sc_hd__conb_1
+X_177_ vssd1 VSUBS _177_/VPB vccd1 _177_/HI la_data_out[115] sky130_fd_sc_hd__conb_1
+X_100_ vssd1 VSUBS _100_/VPB vccd1 _100_/HI la_data_out[38] sky130_fd_sc_hd__conb_1
+X_014_ vssd1 VSUBS _014_/VPB vccd1 _014_/HI io_oeb[26] sky130_fd_sc_hd__conb_1
+X_229_ vssd1 VSUBS _229_/VPB vccd1 _229_/HI io_oeb[3] sky130_fd_sc_hd__conb_1
+X_193_ vssd1 VSUBS _193_/VPB vccd1 _193_/HI wbs_ack_o sky130_fd_sc_hd__conb_1
+X_228_ vssd1 VSUBS _228_/VPB vccd1 _228_/HI io_oeb[2] sky130_fd_sc_hd__conb_1
+X_030_ vssd1 VSUBS _030_/VPB vccd1 _030_/HI io_out[6] sky130_fd_sc_hd__conb_1
+X_176_ vssd1 VSUBS _176_/VPB vccd1 _176_/HI la_data_out[114] sky130_fd_sc_hd__conb_1
+X_159_ vssd1 VSUBS _159_/VPB vccd1 _159_/HI la_data_out[97] sky130_fd_sc_hd__conb_1
+X_013_ vssd1 VSUBS _013_/VPB vccd1 _013_/HI io_oeb[25] sky130_fd_sc_hd__conb_1
+X_192_ vssd1 VSUBS _192_/VPB vccd1 _192_/HI user_irq[2] sky130_fd_sc_hd__conb_1
+X_175_ vssd1 VSUBS _175_/VPB vccd1 _175_/HI la_data_out[113] sky130_fd_sc_hd__conb_1
+X_012_ vssd1 VSUBS _012_/VPB vccd1 _012_/HI io_oeb[24] sky130_fd_sc_hd__conb_1
+X_089_ vssd1 VSUBS _089_/VPB vccd1 _089_/HI la_data_out[27] sky130_fd_sc_hd__conb_1
+X_158_ _158_/VGND VSUBS _158_/VPB _158_/VPWR _158_/HI la_data_out[96] sky130_fd_sc_hd__conb_1
+X_227_ vssd1 VSUBS _227_/VPB vccd1 _227_/HI io_oeb[1] sky130_fd_sc_hd__conb_1
+X_191_ vssd1 VSUBS _191_/VPB vccd1 _191_/HI user_irq[1] sky130_fd_sc_hd__conb_1
+X_157_ vssd1 VSUBS _157_/VPB vccd1 _157_/HI la_data_out[95] sky130_fd_sc_hd__conb_1
+X_088_ vssd1 VSUBS _088_/VPB vccd1 _088_/HI la_data_out[26] sky130_fd_sc_hd__conb_1
+X_226_ vssd1 VSUBS _226_/VPB vccd1 _226_/HI io_oeb[0] sky130_fd_sc_hd__conb_1
+X_174_ vssd1 VSUBS _174_/VPB vccd1 _174_/HI la_data_out[112] sky130_fd_sc_hd__conb_1
+X_011_ vssd1 VSUBS _011_/VPB vccd1 _011_/HI io_oeb[23] sky130_fd_sc_hd__conb_1
+X_209_ vssd1 VSUBS _209_/VPB vccd1 _209_/HI wbs_dat_o[15] sky130_fd_sc_hd__conb_1
+X_173_ vssd1 VSUBS _173_/VPB vccd1 _173_/HI la_data_out[111] sky130_fd_sc_hd__conb_1
+X_190_ vssd1 VSUBS _190_/VPB vccd1 _190_/HI user_irq[0] sky130_fd_sc_hd__conb_1
+X_156_ vssd1 VSUBS _156_/VPB vccd1 _156_/HI la_data_out[94] sky130_fd_sc_hd__conb_1
+X_087_ vssd1 VSUBS _087_/VPB vccd1 _087_/HI la_data_out[25] sky130_fd_sc_hd__conb_1
+X_010_ vssd1 VSUBS _010_/VPB vccd1 _010_/HI io_oeb[22] sky130_fd_sc_hd__conb_1
+X_225_ vssd1 VSUBS _225_/VPB vccd1 _225_/HI wbs_dat_o[31] sky130_fd_sc_hd__conb_1
+X_139_ vssd1 VSUBS _139_/VPB vccd1 _139_/HI la_data_out[77] sky130_fd_sc_hd__conb_1
+X_208_ vssd1 VSUBS _208_/VPB vccd1 _208_/HI wbs_dat_o[14] sky130_fd_sc_hd__conb_1
+X_155_ vssd1 VSUBS _155_/VPB vccd1 _155_/HI la_data_out[93] sky130_fd_sc_hd__conb_1
+X_086_ vssd1 VSUBS _086_/VPB vccd1 _086_/HI la_data_out[24] sky130_fd_sc_hd__conb_1
+X_224_ vssd1 VSUBS _224_/VPB vccd1 _224_/HI wbs_dat_o[30] sky130_fd_sc_hd__conb_1
+X_172_ _172_/VGND VSUBS _172_/VPB _172_/VPWR _172_/HI la_data_out[110] sky130_fd_sc_hd__conb_1
+X_207_ vssd1 VSUBS _207_/VPB vccd1 _207_/HI wbs_dat_o[13] sky130_fd_sc_hd__conb_1
+X_069_ vssd1 VSUBS _069_/VPB vccd1 _069_/HI la_data_out[7] sky130_fd_sc_hd__conb_1
+X_138_ vssd1 VSUBS _138_/VPB vccd1 _138_/HI la_data_out[76] sky130_fd_sc_hd__conb_1
+X_171_ vssd1 VSUBS _171_/VPB vccd1 _171_/HI la_data_out[109] sky130_fd_sc_hd__conb_1
+X_154_ vssd1 VSUBS _154_/VPB vccd1 _154_/HI la_data_out[92] sky130_fd_sc_hd__conb_1
+X_085_ vssd1 VSUBS _085_/VPB vccd1 _085_/HI la_data_out[23] sky130_fd_sc_hd__conb_1
+Xmprj io_out[0] io_out[1] io_in[0] io_in[1] io_in[2] io_in[3] io_in[4] io_in[1] io_in[2]
++ io_in[0] vccd1 vssd1 vccd2 vssd2 vdda1 vssa1 vdda2 vssa2 dpll
+X_223_ _223_/VGND VSUBS _223_/VPB _223_/VPWR _223_/HI wbs_dat_o[29] sky130_fd_sc_hd__conb_1
+X_206_ vssd1 VSUBS _206_/VPB vccd1 _206_/HI wbs_dat_o[12] sky130_fd_sc_hd__conb_1
+X_137_ vssd1 VSUBS _137_/VPB vccd1 _137_/HI la_data_out[75] sky130_fd_sc_hd__conb_1
+X_068_ vssd1 VSUBS _068_/VPB vccd1 _068_/HI la_data_out[6] sky130_fd_sc_hd__conb_1
+X_170_ vssd1 VSUBS _170_/VPB vccd1 _170_/HI la_data_out[108] sky130_fd_sc_hd__conb_1
+X_153_ vssd1 VSUBS _153_/VPB vccd1 _153_/HI la_data_out[91] sky130_fd_sc_hd__conb_1
+X_084_ vssd1 VSUBS _084_/VPB vccd1 _084_/HI la_data_out[22] sky130_fd_sc_hd__conb_1
+X_222_ vssd1 VSUBS _222_/VPB vccd1 _222_/HI wbs_dat_o[28] sky130_fd_sc_hd__conb_1
+X_067_ vssd1 VSUBS _067_/VPB vccd1 _067_/HI la_data_out[5] sky130_fd_sc_hd__conb_1
+X_205_ vssd1 VSUBS _205_/VPB vccd1 _205_/HI wbs_dat_o[11] sky130_fd_sc_hd__conb_1
+X_136_ vssd1 VSUBS _136_/VPB vccd1 _136_/HI la_data_out[74] sky130_fd_sc_hd__conb_1
+X_119_ vssd1 VSUBS _119_/VPB vccd1 _119_/HI la_data_out[57] sky130_fd_sc_hd__conb_1
+X_083_ vssd1 VSUBS _083_/VPB vccd1 _083_/HI la_data_out[21] sky130_fd_sc_hd__conb_1
+X_221_ vssd1 VSUBS _221_/VPB vccd1 _221_/HI wbs_dat_o[27] sky130_fd_sc_hd__conb_1
+X_152_ _152_/VGND VSUBS _152_/VPB _152_/VPWR _152_/HI la_data_out[90] sky130_fd_sc_hd__conb_1
+X_066_ vssd1 VSUBS _066_/VPB vccd1 _066_/HI la_data_out[4] sky130_fd_sc_hd__conb_1
+X_204_ vssd1 VSUBS _204_/VPB vccd1 _204_/HI wbs_dat_o[10] sky130_fd_sc_hd__conb_1
+X_118_ vssd1 VSUBS _118_/VPB vccd1 _118_/HI la_data_out[56] sky130_fd_sc_hd__conb_1
+X_135_ vssd1 VSUBS _135_/VPB vccd1 _135_/HI la_data_out[73] sky130_fd_sc_hd__conb_1
+X_049_ vssd1 VSUBS _049_/VPB vccd1 _049_/HI io_out[25] sky130_fd_sc_hd__conb_1
+X_134_ vssd1 VSUBS _134_/VPB vccd1 _134_/HI la_data_out[72] sky130_fd_sc_hd__conb_1
+X_082_ vssd1 VSUBS _082_/VPB vccd1 _082_/HI la_data_out[20] sky130_fd_sc_hd__conb_1
+X_065_ _065_/VGND VSUBS _065_/VPB _065_/VPWR _065_/HI la_data_out[3] sky130_fd_sc_hd__conb_1
+X_151_ vssd1 VSUBS _151_/VPB vccd1 _151_/HI la_data_out[89] sky130_fd_sc_hd__conb_1
+X_203_ vssd1 VSUBS _203_/VPB vccd1 _203_/HI wbs_dat_o[9] sky130_fd_sc_hd__conb_1
+X_220_ vssd1 VSUBS _220_/VPB vccd1 _220_/HI wbs_dat_o[26] sky130_fd_sc_hd__conb_1
+X_048_ vssd1 VSUBS _048_/VPB vccd1 _048_/HI io_out[24] sky130_fd_sc_hd__conb_1
+X_117_ vssd1 VSUBS _117_/VPB vccd1 _117_/HI la_data_out[55] sky130_fd_sc_hd__conb_1
+X_150_ vssd1 VSUBS _150_/VPB vccd1 _150_/HI la_data_out[88] sky130_fd_sc_hd__conb_1
+X_081_ vssd1 VSUBS _081_/VPB vccd1 _081_/HI la_data_out[19] sky130_fd_sc_hd__conb_1
+X_064_ vssd1 VSUBS _064_/VPB vccd1 _064_/HI la_data_out[2] sky130_fd_sc_hd__conb_1
+X_202_ vssd1 VSUBS _202_/VPB vccd1 _202_/HI wbs_dat_o[8] sky130_fd_sc_hd__conb_1
+X_133_ vssd1 VSUBS _133_/VPB vccd1 _133_/HI la_data_out[71] sky130_fd_sc_hd__conb_1
+X_047_ vssd1 VSUBS _047_/VPB vccd1 _047_/HI io_out[23] sky130_fd_sc_hd__conb_1
+X_116_ vssd1 VSUBS _116_/VPB vccd1 _116_/HI la_data_out[54] sky130_fd_sc_hd__conb_1
+X_201_ vssd1 VSUBS _201_/VPB vccd1 _201_/HI wbs_dat_o[7] sky130_fd_sc_hd__conb_1
+X_063_ vssd1 VSUBS _063_/VPB vccd1 _063_/HI la_data_out[1] sky130_fd_sc_hd__conb_1
+X_132_ vssd1 VSUBS _132_/VPB vccd1 _132_/HI la_data_out[70] sky130_fd_sc_hd__conb_1
+X_080_ vssd1 VSUBS _080_/VPB vccd1 _080_/HI la_data_out[18] sky130_fd_sc_hd__conb_1
+X_046_ vssd1 VSUBS _046_/VPB vccd1 _046_/HI io_out[22] sky130_fd_sc_hd__conb_1
+X_115_ vssd1 VSUBS _115_/VPB vccd1 _115_/HI la_data_out[53] sky130_fd_sc_hd__conb_1
+X_029_ vssd1 VSUBS _029_/VPB vccd1 _029_/HI io_out[5] sky130_fd_sc_hd__conb_1
 .ends
 
