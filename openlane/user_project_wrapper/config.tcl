@@ -37,7 +37,7 @@ set ::env(CLOCK_PERIOD) "100"
 
 ## Internal Macros
 ### Macro Placement
-#set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
+set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
