@@ -28,7 +28,6 @@
  *
  *-------------------------------------------------------------
  */
-`include "digital_pll.v"
 module user_project_wrapper #(
     parameter BITS = 32
 ) (
