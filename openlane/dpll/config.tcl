@@ -10,7 +10,7 @@ set ::env(VERILOG_FILES) "\
 set ::env(FP_SIZING) absolute
 set ::env(DIE_AREA) "0 0 900 600"
 set ::env(DESIGN_IS_CORE) 0
-set ::env(CLOCK_PERIOD) "10"
+set ::env(CLOCK_PERIOD) "100"
 set ::env(CLOCK_PORT) "w"
 set ::env(CLOCK_TREE_SYNTH) 0
 set ::env(VDD_NETS) [list {vccd1} {vccd2} {vdda1} {vdda2}]
